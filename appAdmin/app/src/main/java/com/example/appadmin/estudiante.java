@@ -1,18 +1,22 @@
 package com.example.appadmin;
 
-public class estudiante {
+import java.util.List;
+
+public class Estudiante {
 
     private String nombreE;
     private String codigoE;
     private  String programaE;
+    private int posicion = 0;
+    private List listaEstudainte;
 
-    public estudiante(String nombreE, String codigoE, String programaE) {
+    public Estudiante(String nombreE, String codigoE, String programaE) {
         this.nombreE = nombreE;
         this.codigoE = codigoE;
         this.programaE = programaE;
     }
 
-    public estudiante() {
+    public Estudiante() {
     }
 
     public String getNombreE() {

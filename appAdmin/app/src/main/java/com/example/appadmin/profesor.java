@@ -1,18 +1,18 @@
 package com.example.appadmin;
 
-public class profesor {
+public class Profesor {
 
     private String nombreP;
     private String codigoP;
     private String facultad;
 
-    public profesor(String nombreP, String codigoP, String facultad) {
+    public Profesor(String nombreP, String codigoP, String facultad) {
         this.nombreP = nombreP;
         this.codigoP = codigoP;
         this.facultad = facultad;
     }
 
-    public profesor() {
+    public Profesor() {
     }
 
     public String getNombreP() {

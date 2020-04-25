@@ -37,12 +37,14 @@
         android:layout_y="269dp">
 
         <RadioButton
+            android:onClick="onRadioBtn1"
             android:id="@+id/rEstudiante"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Estudiante" />
 
         <RadioButton
+            android:onClick="onRadioBtn1"
             android:id="@+id/rProfesor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -105,8 +107,32 @@
         android:id="@+id/insertar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="93dp"
-        android:layout_y="567dp"
+        android:layout_x="61dp"
+        android:layout_y="555dp"
         android:text="Insertar" />
+
+    <Button
+        android:id="@+id/mostrarbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="556dp"
+        android:text="mostrar" />
+
+    <Button
+        android:id="@+id/mas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="298dp"
+        android:layout_y="241dp"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/menos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="298dp"
+        android:layout_y="311dp"
+        android:text="-" />
 
 </AbsoluteLayout>
